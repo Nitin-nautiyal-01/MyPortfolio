@@ -1,8 +1,17 @@
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin:20px 170px;
+    animation: slideInFromLeft 1s ease-out; 
 }
 .nav-menu{
     display: flex;

@@ -1,3 +1,11 @@
+@keyframes animate{
+    0% {
+     transform:translateY(-100%)
+    }
+    100%{
+        transform:translateY(0%)
+    }
+}
 .hero{
     display:flex ;
     align-items: center;
@@ -10,6 +18,7 @@
     border: 1px solid #037ADE;
     border-radius: 50%;
     box-shadow: 0px 0px 40px #037ADE;
+    animation: slideInFromLeft 1s ease-out;
 }
 .hero img:hover{
    
