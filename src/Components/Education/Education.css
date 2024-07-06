@@ -1,0 +1,113 @@
+.education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+    margin: 80px 170px;
+}
+.edu-title{
+    position: relative;
+}
+.edu-title h1{
+    padding: 0 30px;
+    font-size: 70px;
+    font-weight: 600;
+    background: linear-gradient(270deg, #037ADE 10%, #03E5B7 100%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.edu-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.edu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    padding: 60px;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition: 0.4s;
+}
+.edu-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:40px;
+    margin-bottom: 80px;
+}
+.edu h2{
+   font-size: 30px;
+   font-weight: 800;
+   background: linear-gradient(270deg, #037ADE 10%, #03E5B7 100%);
+   background-clip:text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.edu:hover{
+    border:2px solid #037ADE;
+    background-image: linear-gradient(45deg, #1463a381, #28a28a7b);
+    transform: scale(1.05);
+    transition: 0.4s;
+    box-shadow: 0px 0px 20px #037ade;
+
+}
+
+/* media */
+
+@media(max-width:768px)
+{
+    .education{
+        align-items: start;
+        gap:70px;
+        margin: 20px 70px;
+    }
+    .edu-title h1{
+        padding: 0 ;
+        font-size: 50px;
+
+    }
+
+    .edu-details{
+        gap:20px;
+        padding: 32px;
+
+    }
+    .edu h3{
+       font-size: 28px;
+    }
+    .edu-details{
+        grid-template-columns: 1fr;
+        gap:20px
+    }
+}
+
+@media(max-width:480px)
+{
+    .education{
+        align-items: start;
+        gap:70px;
+        margin: 0;
+    }
+    .edu-title h1{
+        margin-left: 60px;
+        margin-top: 50px;
+        font-size: 50px;
+    }
+    .edu{
+        margin-top: 0px;
+    }
+    .edu h2{
+        font-size: 25px;
+    }
+    .edu h4{
+        font-size: 20px;
+    }
+
+    
+}
