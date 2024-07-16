@@ -54,6 +54,9 @@
 }
 .hero-connect{
     padding: 20px;
+    font-size: 20px;
+    width:150px;
+    text-align: center;
     border: 2px solid transparent;
     border-radius: 50px;
     background: linear-gradient(264deg, #037ADE -5.09%, #03E5B7 106.2%);
@@ -80,10 +83,19 @@
 /* Media  */
 
 @media(max-width:768px){
+    @keyframes animate{
+        0% {
+         transform:translateY(-100%)
+        }
+        100%{
+            transform:translateY(0%)
+        }
+    }
 
     .hero img{
         margin-top: 120px;
         width:260px;
+        animation: slideInFromLeft 1s ease-out;
     }
     .hero h1{
         margin-top: 50px;
@@ -124,6 +136,9 @@
     .hero-action{
         width: 100%;
         font-size: 15px;
+    }
+    .hero-connect{
+        font-size: 16px;
     }
     
 }

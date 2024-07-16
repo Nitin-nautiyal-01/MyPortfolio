@@ -58,7 +58,7 @@ export default function Contact() {
           <div className="contact-details">
             <div className="contact-detail">
                <img src={mail_icon}/>
-               <p>nautiyalnitin@gmail.com</p>
+               <p>nautiyalnitin1999@gmail.com</p>
             </div>
             <div className="contact-detail">
                 <img src={call_icon}/>
