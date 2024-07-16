@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.d690689e.css",
-    "main.js": "/MyPortfolio/static/js/main.c3bc2431.js",
+    "main.css": "/MyPortfolio/static/css/main.3ee79021.css",
+    "main.js": "/MyPortfolio/static/js/main.2c0d6602.js",
     "static/js/453.83234151.chunk.js": "/MyPortfolio/static/js/453.83234151.chunk.js",
     "static/media/profile_pic.png": "/MyPortfolio/static/media/profile_pic.79f5c7f12e14af486bbd.png",
     "static/media/work_2.png": "/MyPortfolio/static/media/work_2.27d25ca8c6648631fdd0.png",
     "static/media/work_1.png": "/MyPortfolio/static/media/work_1.23f9a1cb6213bd4af1f9.png",
-    "static/media/NITIN_NAUTIYAL_cv.pdf": "/MyPortfolio/static/media/NITIN_NAUTIYAL_cv.3f2f526edcd496d4b2bf.pdf",
+    "static/media/Nitin_Nautiyal_cv.pdf": "/MyPortfolio/static/media/Nitin_Nautiyal_cv.582a243b86bbd9be8762.pdf",
     "static/media/work_3.png": "/MyPortfolio/static/media/work_3.d134316948c1828d11ae.png",
     "static/media/call_icon.svg": "/MyPortfolio/static/media/call_icon.fec62cc3d3fb69f5ce5f05a0724a0425.svg",
     "static/media/footer_logo.svg": "/MyPortfolio/static/media/footer_logo.bfa49269d63bf6da41dabf89b528e658.svg",
@@ -17,12 +17,12 @@
     "static/media/theme_pattern.svg": "/MyPortfolio/static/media/theme_pattern.92278b3dbc4b903482e1d44b040aa98f.svg",
     "static/media/location_icon.svg": "/MyPortfolio/static/media/location_icon.111157f177e78ee2c0025016c0206379.svg",
     "static/media/menu_open.svg": "/MyPortfolio/static/media/menu_open.f6a63a18e3c68d807e50b1037f3e3555.svg",
-    "main.d690689e.css.map": "/MyPortfolio/static/css/main.d690689e.css.map",
-    "main.c3bc2431.js.map": "/MyPortfolio/static/js/main.c3bc2431.js.map",
+    "main.3ee79021.css.map": "/MyPortfolio/static/css/main.3ee79021.css.map",
+    "main.2c0d6602.js.map": "/MyPortfolio/static/js/main.2c0d6602.js.map",
     "453.83234151.chunk.js.map": "/MyPortfolio/static/js/453.83234151.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d690689e.css",
-    "static/js/main.c3bc2431.js"
+    "static/css/main.3ee79021.css",
+    "static/js/main.2c0d6602.js"
   ]
 }
