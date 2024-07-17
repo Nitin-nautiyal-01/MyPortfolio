@@ -136,9 +136,15 @@
     .hero-action{
         width: 100%;
         font-size: 15px;
+        margin-left: 30px;
     }
     .hero-connect{
         font-size: 16px;
+        padding: 20px 10px;
+    }
+    .hero-resume{
+        font-size: 16px;
+        padding: 20px 40px;
     }
     
 }
